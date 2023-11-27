@@ -10411,6 +10411,13 @@ sppc_pu({"site":17862,"channel":81272});
         <hr>
     </div>
 </footer>
+
+<div id="bottom-ads" class="ml-1 text-right auto-hide-show" style="z-index:10000000;position: fixed; bottom: 0; right: 0;max-width:95%;font-size:16px;">
+	<span class="position-absolute text-white p-1" style="top:0;right:0;background:rgba(0, 0, 0, 0.6);cursor:pointer;" onclick="$(this).parent().remove()">關閉廣告</span>
+	<a href="https://tfosrv.com/show_std.php?id_site=17862&id_channel=81272&uf=true" target="_blank" style="display:block;max-width:400px;">
+        <img src="/static/31.webp?1699605477" alt="" style="width:100%; border-top-left-radius:12px ;">
+    </a>
+</div>
 <div id='stats' class='d-none'></div>
 
 <script src="static/jquery.js"></script>
@@ -10425,6 +10432,7 @@ sppc_pu({"site":17862,"channel":81272});
     $(window).scroll(function (event) {
         didScroll = true;
     });
+
 
     setInterval(function () {
         if (!didScroll) {
