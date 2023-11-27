@@ -1,0 +1,281 @@
+html, body {
+	height: 100%;
+	font-family: Microsoft yahei;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+.wrap>.container {
+	padding: 0px 5px 20px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.visited:visited {
+	color: yellow;
+}
+
+@media ( max-width :600px) {
+	.fullwidth {
+		margin-left: -12px !important;
+		margin-right: -12px !important
+	}
+}
+
+.footer {
+	border-top: 1px solid #888;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.website {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	padding: 4px 0;
+	margin: 1px 0;
+}
+
+a.website:active {
+	background: #eee;
+}
+
+.website img {
+	width: 16px;
+	height: 16px;
+}
+
+#iporn .website, #chunse .website {
+	margin: 2px 0;
+	padding: 4px 0;
+}
+
+#qingse .website {
+	background: #000;
+	margin: 3px 0px 3px 0;
+	padding: 10px;
+}
+
+#sgzhan .website {
+	padding: 6px 0;
+}
+
+#fuli .website img {
+	display: none;
+}
+
+#grid .website img {
+	display: none;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+.not-set {
+	color: #c55;
+	font-style: italic;
+}
+.icon{
+	width:16px;
+	height:16px;
+}
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	padding-left: 5px;
+}
+
+.grid-view th {
+	white-space: nowrap;
+}
+
+.hint-block {
+	display: block;
+	margin-top: 5px;
+	color: #999;
+}
+
+.error-summary {
+	color: #a94442;
+	background: #fdf7f7;
+	border-left: 3px solid #eed3d7;
+	padding: 10px 20px;
+	margin: 0 0 15px 0;
+}
+
+td, th {
+	vertical-align: middle !important;
+}
+
+.money {
+	color: green;
+	font-size: larger;
+	font-weight: bold;
+}
+
+.country-name {
+	color: #aaa;
+	font-size: small;
+}
+
+.iconBtn i {
+	display: block;
+	font-size: 180%;
+	width: 25px;
+	height: 25px;
+}
+
+.bottom-10 {
+	margin-bottom: 10px !important;
+}
+
+.bottom-5 {
+	margin-bottom: 5px !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+#stats {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	-webkit-overflow-scrolling: touch;
+	white-space: nowrap;
+	height: 35px;
+}
+
+#stats a {
+	display: inline-block;
+	color: #000 !important;
+	padding: 8px 8px;
+	border-right: 1px solid #ddd;
+	max-width: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#stats a:hover {
+	background: #ddd;
+}
+
+.row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2,
+	.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+	.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5,
+	.col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+	.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8,
+	.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+	.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11,
+	.col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+	{
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.block {
+	border-bottom: 0px;
+	margin-bottom: 10px;
+	color: #000;
+	border: 1px solid #000;
+	background: #1C1E22;
+}
+
+.block:hover {
+	box-shadow: 1px 1px 3px #000;
+}
+
+.block-header {
+	background-color: #f8f8f8;
+}
+
+.block-inner {
+	padding: 1px 0;
+}
+
+.block-inner2 {
+	padding: 8px;
+}
+
+.block-one-line {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.block-title {
+	height: 52px;
+	overflow: hidden;
+	line-height: 22px;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.block-layer img {
+	width: 100%;
+}
+
+.imagelabel {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ddd;
+	padding: 0px 5px;
+	font-size: 80%;
+	position: absolute;
+}
+
+.imagelabel-bottom-left {
+	bottom: 0px;
+}
+
+.imagelabel-bottom-right {
+	right: 0px;
+	color: yellow;
+	bottom: 0;
+}
+
+.media-image {
+	position: relative;
+	border: 0px solid #888;
+}
+
+.site-login>.col-lg-offset-1 {
+	display: none;
+}
