@@ -26,6 +26,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.1/slate/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="static/site.css?e" rel="stylesheet">
+    <style>
+        .bannerAd {
+            width: 100%;
+        }
+    </style>
 </head>
 <body data-root="/" style='padding-top: 6.5rem'>
 
@@ -10415,8 +10420,20 @@ sppc_pu({"site":17862,"channel":81272});
 <div id="bottom-ads" class="ml-1 text-right auto-hide-show" style="z-index:10000000;position: fixed; bottom: 0; right: 0;max-width:95%;font-size:16px;">
 	<span class="position-absolute text-white p-1" style="top:0;right:0;background:rgba(0, 0, 0, 0.6);cursor:pointer;" onclick="$(this).parent().remove()">關閉廣告</span>
 	<a href="https://tfosrv.com/show_std.php?id_site=17862&id_channel=81272&uf=true" target="_blank" style="display:block;max-width:400px;">
-        <img src="/static/31.webp?1699605477" alt="" style="width:100%; border-top-left-radius:12px ;">
+        <img src="/static/31.webp?1699605477" alt="" style="width:250px; border-top-left-radius:12px ;">
     </a>
+</div>
+
+<div id="bottom-ads" class="ml-1 text-right auto-hide-show" style="z-index:10000000;position: fixed; bottom: 0; left: 0;max-width:95%;font-size:16px;" >
+	<span class="position-absolute text-white p-1" style="top:0;right:0;background:rgba(0, 0, 0, 0.6);cursor:pointer;" onclick="$(this).parent().remove()">關閉廣告</span>
+    <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="200"
+        src="https://tfosrv.com/show_std.php?id_site=17862&id_channel=81272&uf=true"
+    >
+    </iframe>
 </div>
 <div id='stats' class='d-none'></div>
 
@@ -10432,6 +10449,8 @@ sppc_pu({"site":17862,"channel":81272});
     $(window).scroll(function (event) {
         didScroll = true;
     });
+
+    $("body").children("div").addClass('bannerAd')
 
 
     setInterval(function () {
